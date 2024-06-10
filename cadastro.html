@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style_ca.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form>
+            <h1>Área de Cadastro</h1>
+
+            <div class="input-box">
+                <input type="text" placeholder="name" id="name" required>
+                <i class='bx bxs-name'></i>
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="surname" id="surname" required>
+                <i class='bx bxs-surname'></i>
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="cpf" id="cpf" name="cpf" required>
+                <i class='bx bxs-cpf'></i>
+            </div>
+
+            <div class="input-box">
+                <input type="email" placeholder="e-mail" id="email" required>
+                <i class='e-mail'></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="password" id="passwordca" name="passwordca" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="repeat password" id="repeatpassword" name="repeatpassword" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            
+            <button type="button" class="btn" id="cadastrar" onclick="btnCadastrar();">Cadastrar</button>
+        </form>
+    </div>    
+</body>
+<script src="cadastro.js"></script>
+</html>

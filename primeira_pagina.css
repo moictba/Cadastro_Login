@@ -1,0 +1,25 @@
+.body{
+    min-width: 100vh;
+    color: #ff0000;
+    
+}
+
+.header {
+    display: flex;
+    background-color: beige;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.margin_conteudo{
+    width: 1200px;
+    display: flex;
+}
+
+.imag{
+    
+}
+
+.menu{
+
+}
